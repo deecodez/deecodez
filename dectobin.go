@@ -3,11 +3,11 @@ package main
 import "fmt"
  
 func main() {
-        fmt.Print("Please Enter Number to convert: ")   //Print function is used to display output in same line
+        fmt.Print("Please Enter Number to convert: ")   
         var num int    
-		fmt.Scanln(&num)                  // Take input from user
+		fmt.Scanln(&num)                
 		
 		bin := fmt.Sprintf("%b", num)
     
-        fmt.Println("Binary: ", bin)           // Addition of two string   
+        fmt.Println("Binary: ", bin)              
 }
